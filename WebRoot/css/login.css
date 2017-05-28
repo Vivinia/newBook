@@ -1,0 +1,39 @@
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Microsoft YaHei;
+	color: #575757;
+	background-image: url(../image/register.jpg);
+}
+
+td {
+	height: 50px;
+	width: 100px;
+}
+
+.button {
+	width: 60px;
+	height: 30px;
+	font-size: 15PX;
+	background: #33300;
+	color: #575757;
+	margin-top: 10px;
+}
+
+.register {
+	color: #575757;
+	margin-top: 5px;
+}
+
+.text {
+	width: 180px;
+	height: 30px;
+}

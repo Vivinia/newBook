@@ -1,0 +1,38 @@
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+body {
+	font-family: Microsoft YaHei;
+	color: #575757;
+	background-image: url(../image/book.jpg);
+}
+
+
+td {
+	height: 36px;
+	width: 100px;
+}
+.a {
+	color: #336600;
+	font-size: 17px;
+}
+
+.title {
+	color: #575757;
+	font-size: 18px;
+}
+
+.content {
+	color: #666666;
+}
+.del {
+	height: 20px;
+	width: 20px;
+	color: transparent;
+	background: url(../image/glyphicons-halflings.png);
+	background-position: -310px 5px;
+	background-repeat: no-repeat;
+}

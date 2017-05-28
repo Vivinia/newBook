@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doLoginServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookListServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.bookListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookUpdateServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.bookUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateBookServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.updateBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookDeleteServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.bookDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookAddServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.bookAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCarServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.addCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCollectServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.addCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegisterServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lookCarServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.lookCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doSettleAccountServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doSettleAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doSubmitOrderServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doSubmitOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lookCollectServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.lookCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doDeleteCollectServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doDeleteCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userListServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.userListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userDeleteServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.userDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doDeleteCarServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doDeleteCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lookOrderServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.lookOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doDeleteOrderServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doDeleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doUpdatePassServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doUpdatePassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doGetConsigneeServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doGetConsigneeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>saveOneConsigneeServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.saveOneConsigneeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showUserServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.showUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doDelConsigneeServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doDelConsigneeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doUpdateConsigneeServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doUpdateConsigneeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAddConsigneeServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.doAddConsigneeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>submitUpdateConsigneeServlet</servlet-name>
+    <servlet-class>org.wxy.servlet.submitUpdateConsigneeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>doLoginServlet</servlet-name>
+    <url-pattern>/doLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookListServlet</servlet-name>
+    <url-pattern>/bookListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookUpdateServlet</servlet-name>
+    <url-pattern>/bookUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateBookServlet</servlet-name>
+    <url-pattern>/updateBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookDeleteServlet</servlet-name>
+    <url-pattern>/bookDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookAddServlet</servlet-name>
+    <url-pattern>/bookAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCarServlet</servlet-name>
+    <url-pattern>/addCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCollectServlet</servlet-name>
+    <url-pattern>/addCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doRegisterServlet</servlet-name>
+    <url-pattern>/doRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lookCarServlet</servlet-name>
+    <url-pattern>/lookCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doSettleAccountServlet</servlet-name>
+    <url-pattern>/doSettleAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doSubmitOrderServlet</servlet-name>
+    <url-pattern>/doSubmitOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lookCollectServlet</servlet-name>
+    <url-pattern>/lookCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doDeleteCollectServlet</servlet-name>
+    <url-pattern>/doDeleteCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userListServlet</servlet-name>
+    <url-pattern>/userListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userDeleteServlet</servlet-name>
+    <url-pattern>/userDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doDeleteCarServlet</servlet-name>
+    <url-pattern>/doDeleteCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lookOrderServlet</servlet-name>
+    <url-pattern>/lookOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doDeleteOrderServlet</servlet-name>
+    <url-pattern>/doDeleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doUpdatePassServlet</servlet-name>
+    <url-pattern>/doUpdatePassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doGetConsigneeServlet</servlet-name>
+    <url-pattern>/doGetConsigneeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>saveOneConsigneeServlet</servlet-name>
+    <url-pattern>/saveOneConsigneeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showUserServlet</servlet-name>
+    <url-pattern>/showUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doDelConsigneeServlet</servlet-name>
+    <url-pattern>/doDelConsigneeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doUpdateConsigneeServlet</servlet-name>
+    <url-pattern>/doUpdateConsigneeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAddConsigneeServlet</servlet-name>
+    <url-pattern>/doAddConsigneeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>submitUpdateConsigneeServlet</servlet-name>
+    <url-pattern>/submitUpdateConsigneeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>TypeEncode</filter-name>
+  	<filter-class>org.wxy.filter.TypeEncode</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>TypeEncode</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
